@@ -1,0 +1,9 @@
+Load digital dictionary file as a list of words
+Accept a word from user
+Create empty list to hold anagrams
+Sort the user word
+Loop through each word in the word list:
+	Sort the word
+	If word sorted is equal to user-word sorted:
+		Append word to anagrams list 
+Print anagrams list
