@@ -15,7 +15,7 @@ Requires-import sys
 import sys
 
 
-def load_dictionary(file):
+def load_dict(file):
     """Open a text file & return a list of lowercase strings."""
     try:
         with open(file) as in_file:
@@ -28,7 +28,7 @@ def load_dictionary(file):
         sys.exit(1)
 
 
-def load(file):
+def load_text(file):
     """Open text file and return list."""
     with open(file) as f:
         return f.read().strip()
