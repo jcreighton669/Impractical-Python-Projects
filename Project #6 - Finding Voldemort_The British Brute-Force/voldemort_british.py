@@ -1,4 +1,3 @@
-from _typeshed import FileDescriptor
 import sys
 from itertools import permutations
 from collections import Counter
