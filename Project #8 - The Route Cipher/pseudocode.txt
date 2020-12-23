@@ -1,0 +1,16 @@
+Load the ciphertext string.
+Convert ciphertext into a cipherlist to split out individual words.
+Get input for the number of columns and rows.
+Get input for the key.
+Convert key into a list to split out individual numbers.
+Create a new list for the translation matrix.
+For every number in the key:
+	Create a new list and append every n items (n = # in rows) from the cipherlist.
+	Use the sign of key number to decide whether to read the row forward or backward.
+	Using the chosen direction. add the new list to the matrix. The index of each new list is based on the column number used in the key.
+Create a new string to hold translation results.
+For range of rows:
+	For the nested list in translation matrix:
+		Remove the last word in nested list
+		Add the word to the translation string.
+Print the translation string.
